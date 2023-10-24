@@ -1,0 +1,8 @@
+---
+
+- host: all
+  become: true
+  roles:
+    - prometheus
+
+
